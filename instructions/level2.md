@@ -6,44 +6,7 @@ Metoder kan modtage inputværdier kaldet parametre. Når du kalder en metode med
 ---
 
 ## Givet Klasse
-Studerende skal bruge denne klasse. Alle metoder er allerede skrevet - de behøver kun at kalde dem fra `run()` metoden.
-
-```java
-public class MessageMaker {
-    
-    private void greet(String name) {
-        System.out.println("Hello, " + name + "!");
-    }
-    
-    private void printNumber(int num) {
-        System.out.println("The number is: " + num);
-    }
-    
-    private void countdown(int start) {
-        System.out.println("Counting down from " + start + ":");
-        for (int i = start; i >= 0; i--) {
-            System.out.println(i);
-        }
-    }
-    
-    private void repeatWord(String word) {
-        System.out.println(word + " " + word + " " + word);
-    }
-    
-    private void showPrice(double price) {
-        System.out.println("Price: $" + price);
-    }
-    
-    private void celebrate(String event) {
-        System.out.println("🎉 Celebrating: " + event + " 🎉");
-    }
-    
-    // Studerende skal skrive deres metodekald i run()
-    public void run() {
-        // Din kode her
-    }
-}
-```
+Tag udgangspunkt i klassen MessageMaker. Alle metoder er allerede skrevet - de behøver kun at kalde dem fra `run()` metoden.
 
 ---
 
