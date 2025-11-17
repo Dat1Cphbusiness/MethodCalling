@@ -1,5 +1,15 @@
 # Level 2: Void-metoder med én parameter
 
+### Level 2 fokuserer på:
+
+- Kalde metoder med én parameter
+- Forstå forskellen mellem literale værdier og variabler som argumenter
+- Matche argumentets datatype med parameterens datatype (String, int, double)
+- Bruge samme metode med forskellige argumenter
+- Oprette variabler og bruge dem i metodekald
+- Kombinere forskellige datatyper (String, int, double) i separate metodekald
+
+
 ## Begrebsgennemgang
 Metoder kan modtage inputværdier kaldet parametre. Når du kalder en metode med en parameter, skal du angive en værdi (kaldet et argument), der matcher parameterens datatype. Du kan enten give en literal værdi (som `5` eller `"Hej"`) eller en variabel.
 
@@ -7,6 +17,15 @@ Metoder kan modtage inputværdier kaldet parametre. Når du kalder en metode med
 
 ## Givet Klasse
 Tag udgangspunkt i klassen MessageMaker. Alle metoder er allerede skrevet - de behøver kun at kalde dem fra `run()` metoden.
+
+---
+
+## Tips
+- Sørg for at datatyperne på dit argument matcher parametertypen (String til String, int til int, osv.)
+- Husk at sætte anførselstegn omkring String-literaler: `"sådan her"`
+- Sæt ikke anførselstegn omkring tal: `42` ikke `"42"`
+- Variabelnavne skal ikke have anførselstegn: `greet(mitNavn)` ikke `greet("mitNavn")`
+- Al din kode skal placeres inde i `run()` metoden mellem tuborgklammerne `{}`
 
 ---
 
@@ -138,9 +157,3 @@ coding coding coding
 
 ---
 
-## Tips til Studerende
-- Sørg for at datatyperne på dit argument matcher parametertypen (String til String, int til int, osv.)
-- Husk at sætte anførselstegn omkring String-literaler: `"sådan her"`
-- Sæt ikke anførselstegn omkring tal: `42` ikke `"42"`
-- Variabelnavne skal ikke have anførselstegn: `greet(mitNavn)` ikke `greet("mitNavn")`
-- Al din kode skal placeres inde i `run()` metoden mellem tuborgklammerne `{}`

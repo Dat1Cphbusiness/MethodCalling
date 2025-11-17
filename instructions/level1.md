@@ -1,4 +1,12 @@
 # Level 1: Void-metoder uden parametre
+### Level 1 fokuserer på:
+
+- Kalde metoder med korrekt syntaks (metodenavn + parenteser)
+- Udføre enkelte metodekald
+- Udføre samme metode flere gange
+- Forstå at rækkefølgen af metodekald er vigtig
+- Bygge sekvenser og mønstre ved at kombinere metodekald
+- Arbejde inden for run() metoden
 
 ## Begrebsgennemgang
 Metoder er kodeblokke, der udfører specifikke opgaver. For at bruge en metode skal du "kalde" den ved at skrive dens navn efterfulgt af parenteser `()`. I dette level vil du øve dig i at kalde metoder, der ikke kræver nogen inputværdier.
@@ -7,6 +15,15 @@ Metoder er kodeblokke, der udfører specifikke opgaver. For at bruge en metode s
 
 ## Givet Klasse
 Tag udgangspunkt i klassen Robot. Alle metoder er allerede skrevet - de behøver kun at kalde dem fra `run()` metoden.
+
+---
+
+## Tips
+- Metodekald skal inkludere parenteser: `sayHello()` ikke `sayHello`
+- Hvert metodekald skal være på sin egen linje
+- Metoder udføres i den rækkefølge, du kalder dem (oppefra og ned)
+- Du kan kalde den samme metode så mange gange, du har brug for
+- Al din kode skal placeres inde i `run()` metoden mellem tuborgklammerne `{}`
 
 ---
 
@@ -130,11 +147,3 @@ Battery level: 100%
 *BEEP*
 ```
 
----
-
-## Tips til Studerende
-- Metodekald skal inkludere parenteser: `sayHello()` ikke `sayHello`
-- Hvert metodekald skal være på sin egen linje
-- Metoder udføres i den rækkefølge, du kalder dem (oppefra og ned)
-- Du kan kalde den samme metode så mange gange, du har brug for
-- Al din kode skal placeres inde i `run()` metoden mellem tuborgklammerne `{}`

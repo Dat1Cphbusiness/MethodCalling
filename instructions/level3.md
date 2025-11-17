@@ -1,5 +1,14 @@
 # Level 3: Void-metoder med flere parametre
 
+### Level 3 fokuserer på:
+
+- To parametre med samme type (int, int)
+- To parametre med forskellige typer (String, int)
+- Tre parametre med blandede typer
+- Fire parametre (double, double, double, double)
+- Vigtigheden af parameter-rækkefølge
+- Blanding af literaler og variabler
+
 ## Begrebsgennemgang
 Metoder kan modtage flere parametre samtidig. Når du kalder en metode med flere parametre, er det vigtigt at give argumenterne i den korrekte rækkefølge og med de korrekte datatyper. For eksempel, hvis en metode er defineret som `displayPerson(String name, int age)`, skal du først give en String og derefter et int.
 
@@ -8,7 +17,15 @@ Metoder kan modtage flere parametre samtidig. Når du kalder en metode med flere
 ## Givet Klasse
 Tag udgangspunkt i klassen InfoDisplay. Alle metoder er allerede skrevet - de behøver kun at kalde dem fra `run()` metoden.
 
+---
 
+## Tips
+- Argumenternes **rækkefølge** skal matche parametrenes rækkefølge i metode-signaturen
+- Argumenternes **datatyper** skal matche parametrenes datatyper
+- Hvis en metode kræver `(String, int)`, kan du ikke give `(int, String)`
+- Brug komma `,` til at adskille flere argumenter
+- Husk at tælle dine argumenter - hvis metoden har 3 parametre, skal du give 3 argumenter
+- Al din kode skal placeres inde i `run()` metoden mellem tuborgklammerne `{}`
 
 ---
 
@@ -173,12 +190,3 @@ Lars is 45 years old.
 Maria is 32 years old.
 ```
 
----
-
-## Tips til Studerende
-- Argumenternes **rækkefølge** skal matche parametrenes rækkefølge i metode-signaturen
-- Argumenternes **datatyper** skal matche parametrenes datatyper
-- Hvis en metode kræver `(String, int)`, kan du ikke give `(int, String)`
-- Brug komma `,` til at adskille flere argumenter
-- Husk at tælle dine argumenter - hvis metoden har 3 parametre, skal du give 3 argumenter
-- Al din kode skal placeres inde i `run()` metoden mellem tuborgklammerne `{}`
