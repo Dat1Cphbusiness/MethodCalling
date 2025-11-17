@@ -63,6 +63,39 @@ I disse øvelser vil du arbejde gennem en gradvis progression:
 4. **Level 4**: Arbejde med blandede datatyper (boolean, char, int, double, String)
 5. **Level 5**: Arbejde med metoder der returnerer værdier
 
+
+
+## Hvordan kommer jeg igang ?
+Clon projektet og kig på Main metoden. Her kan du se linjerne:
+
+```java
+// Level 1
+Robot myRobot = new Robot();
+myRobot.run();
+```
+
+I alle øvelserne skriver du din kode inde i `run()` metoden mellem tuborgklammerne `{}`. Alle metoderne du skal kalde er allerede skrevet for dig - du skal bare kalde dem i den rigtige rækkefølge med de rigtige argumenter.
+
+## Opgavebeskrivelser
+
+Hvert level har sin egen detaljerede opgavebeskrivelse med eksempler og forventet output:
+
+- **[Level 1: Void-metoder uden parametre](level1.md)**  
+  Lær at kalde simple metoder og bygge sekvenser
+
+- **[Level 2: Void-metoder med én parameter](level2.md)**  
+  Arbejd med metoder der tager input af forskellige datatyper
+
+- **[Level 3: Void-metoder med flere parametre](level3.md)**  
+  Kombiner flere parametre og forstå vigtigheden af rækkefølge
+
+- **[Level 4: Void-metoder med blandede datatyper](level4.md)**  
+  Mestre boolean, char og komplekse parameter-kombinationer
+
+- **[Level 5: Metoder med returværdier](level5.md)**  
+  Arbejd med metoder der returnerer værdier og brug dem i dine programmer
+
+Åbn den relevante fil for at se de specifikke opgaver for hvert level.
 ## Tips
 - Læs fejlmeddelelser omhyggeligt - de fortæller dig ofte præcis, hvad der er galt
 - Husk parenteser: `metodeNavn()` ikke bare `metodeNavn`
@@ -76,8 +109,6 @@ I disse øvelser vil du arbejde gennem en gradvis progression:
 
 
 
-## Hvor skriver jeg min kode?
-I alle øvelserne skriver du din kode inde i `run()` metoden mellem tuborgklammerne `{}`. Alle metoderne du skal kalde er allerede skrevet for dig - du skal bare kalde dem i den rigtige rækkefølge med de rigtige argumenter.
 
 God fornøjelse med øvelserne! 🚀
 
