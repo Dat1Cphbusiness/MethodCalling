@@ -80,21 +80,21 @@ Alle metoderne undtaget `run()` er allerede skrevet for dig - du skal bare kalde
 
 ## Opgavebeskrivelser
 
-Hvert level har sin egen detaljerede opgavebeskrivelse med eksempler og forventet output:
+Hvert level har sin egen detaljerede opgavebeskrivelse(i folderen 'instructions') med eksempler og forventet output:
 
-- **[Level 1: Void-metoder uden parametre](level1.md)**  
+- **[Level 1: Void-metoder uden parametre](instructions/level1.md)**  
   Lær at kalde simple metoder og bygge sekvenser
 
-- **[Level 2: Void-metoder med én parameter](level2.md)**  
+- **[Level 2: Void-metoder med én parameter](instructions/level2.md)**  
   Arbejd med metoder der tager input af forskellige datatyper
 
-- **[Level 3: Void-metoder med flere parametre](level3.md)**  
+- **[Level 3: Void-metoder med flere parametre](instructions/level3.md)**  
   Kombiner flere parametre og forstå vigtigheden af rækkefølge
 
-- **[Level 4: Void-metoder med blandede datatyper](level4.md)**  
+- **[Level 4: Void-metoder med blandede datatyper](instructions/level4.md)**  
   Mestre boolean, char og komplekse parameter-kombinationer
 
-- **[Level 5: Metoder med returværdier](level5.md)**  
+- **[Level 5: Metoder med returværdier](instructions/level5.md)**  
   Arbejd med metoder der returnerer værdier og brug dem i dine programmer
 
 Åbn den relevante fil for at se de specifikke opgaver for hvert level.
