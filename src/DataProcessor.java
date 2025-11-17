@@ -100,8 +100,7 @@ public class DataProcessor {
         }
     }
 
-    // Studerende skal skrive deres metodekald i run()
     public void run() {
-        // Din kode her
+        // Skriv dine metodekald her
     }
 }

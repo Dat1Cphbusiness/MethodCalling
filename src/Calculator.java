@@ -65,8 +65,7 @@ public class Calculator {
         return price * (1 - discountPercent / 100.0);
     }
 
-    // Studerende skal skrive deres metodekald i run()
     public void run() {
-        // Din kode her
-    }
+        // Skriv dine metodekald her
+        }
 }

@@ -26,14 +26,10 @@ public class Robot {
         System.out.println("  / \\");
     }
 
-    // Students will write their method calls in run()
+
     public void run() {
-        // Your code here
+        // Skriv dine metodekald her
     }
 
-    // Main method to start the program
-    public static void main(String[] args) {
-        Robot myRobot = new Robot();
-        myRobot.run();
-    }
+
 }

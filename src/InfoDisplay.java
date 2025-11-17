@@ -44,8 +44,7 @@ public class InfoDisplay {
         System.out.println("Date: " + day + " " + month + " " + year);
     }
 
-    // Studerende skal skrive deres metodekald i run()
     public void run() {
-        // Din kode her
+        // Skriv dine metodekald her
     }
 }
