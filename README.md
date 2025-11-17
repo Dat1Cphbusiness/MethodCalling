@@ -66,15 +66,17 @@ I disse øvelser vil du arbejde gennem en gradvis progression:
 
 
 ## Hvordan kommer jeg igang ?
-Clon projektet og kig på Main metoden. Her kan du se linjerne:
+Clon projektet og kig på main metoden i Main klassen. 
+Her kan du se linjerne:
 
 ```java
 // Level 1
 Robot myRobot = new Robot();
 myRobot.run();
 ```
-
-I alle øvelserne skriver du din kode inde i `run()` metoden mellem tuborgklammerne `{}`. Alle metoderne du skal kalde er allerede skrevet for dig - du skal bare kalde dem i den rigtige rækkefølge med de rigtige argumenter.
+Til hvert level hører en klasse som er fyldt med metoder som du skal kalde fra klassens `run()` metode. 
+Du skriver altså din kode i `run()` metoden mellem tuborgklammerne `{}`. 
+Alle metoderne undtaget `run()` er allerede skrevet for dig - du skal bare kalde dem i den rigtige rækkefølge med de rigtige argumenter.
 
 ## Opgavebeskrivelser
 
